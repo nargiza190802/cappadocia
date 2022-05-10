@@ -1,0 +1,348 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans&family=Lato:ital@1&family=Open+Sans:ital,wght@1,300;1,400&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lato:ital@1&family=Open+Sans:ital,wght@1,300;1,400&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Hurricane&family=Josefin+Sans&family=Lato:ital@1&family=Open+Sans:ital,wght@1,300;1,400&family=Roboto+Condensed:wght@300&display=swap');
+/* *,
+*::after,
+*::before{
+box-sizing: border-box; 
+} */
+/* @font-face {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Balqis'), url('https://fonts.cdnfonts.com/s/18521/Balqis.woff') format('woff');
+}  */
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-section {
+    margin: 200px auto;
+    min-width: 1920px;
+}
+
+.title {
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+    font-family: Dancing Script;
+    font-weight: 300;
+    margin-bottom: 100;
+
+}
+
+.title span {
+    line-height: 28px;
+    font-size: 24px;
+    color: #000;
+    font-family: Roboto Condensed;
+    margin-top: 90px;
+
+
+}
+
+.header {
+    background-image: url(.//cappadocia.jpg);
+    /* width: 100%; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: Roboto Condensed;
+}
+
+.menu_list-item {
+    display: inline-block;
+}
+
+.menu_list-item+.menu_list-item {
+    margin-left: 52px;
+}
+
+.menu_list-link:hover {
+    text-decoration: underline;
+}
+
+.menu_list-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.header_phone {
+    padding-left: 40px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header_phone::before {
+    content: '';
+    position: absolute;
+    background-image: url(../кападокия/phone\ 1.png);
+    width: 29px;
+    height: 29px;
+    left: 79%;
+
+}
+
+.header_title {
+    padding-top: 152px;
+    text-align: center;
+    font-size: 250px;
+    font-family: Great Vibes;
+    font-weight: 200px;
+    margin-top: -9%;
+    margin-right: 10%;
+}
+
+.header_title span {
+    display: block;
+    text-align: right;
+    font-size: 40px;
+    line-height: 44px;
+    font-family: Roboto Condensed;
+    margin-top: -8%;
+    margin-right: 4%;
+}
+
+.fairy-tail_title span {
+    margin-left: 20px;
+    margin-top: 10%;
+
+}
+
+.fairy-tail_inner {
+    position: relative;
+}
+
+.fairy-tail-slider {
+    width: 50%;
+}
+
+.fairy-tail_container {
+    min-width: 1230px;
+    padding: 0 15%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.fairy-tail_body {
+    width: 50%;
+    margin-left: 800px;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.fairy-tail_text {
+    padding: 10px 0;
+}
+
+.fairy_tail_body-title {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+
+}
+
+.our_trip_inner {
+    position: relative;
+}
+
+.our_trip_content {
+    width: 50%;
+    padding-right: 55px;
+}
+
+.our_trip_container {
+    min-width: 1230px;
+    margin: 0 auto;
+    position: absolute;
+    left: 10;
+    top: 0;
+    right: 30%;
+    bottom: 0;
+}
+
+.our_trip_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.our_trip_title span {
+    margin-left: 135px;
+}
+
+.our_trip_list {
+    margin: 10px 0;
+}
+
+.our_trip_list li:first-child {
+    margin-bottom: 20px;
+    font-family: Roboto Condensed;
+}
+
+.our_trip_btn {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Roboto Condensed;
+    border: 1px #E2AB3F;
+    padding: 11px 53px;
+}
+
+.our_trip__slider-item {
+    margin-left: auto;
+    width: 50%;
+    line-height: 28px;
+}
+
+.day {
+    font-weight: bold;
+}
+
+
+.hotel_title {
+    font-family: Great Vibes;
+    color: #E2AB3F;
+    font-size: 96px;
+}
+
+.hotel_title span {
+    margin-left: 80px;
+}
+
+.hotel_inner {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.hotel_images {
+    margin-right: 80px;
+}
+
+.hotel_text {
+    margin-bottom: 20px;
+}
+
+.hotel_gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotel_gallery a {
+    margin-top: 50px;
+
+}
+
+.price_inner {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.price_on {
+    margin-right: 70px;
+    width: 530px;
+}
+
+.price_list-item {
+    margin-bottom: 20px;
+}
+
+.price_off-title {
+    line-height: 28px;
+    margin-bottom: 28px;
+    font-size: 24px;
+    font-family: Roboto Condensed;
+}
+
+.price {
+    background-image: url(.//price1.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.container {}
+
+.contacts_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_info {}
+
+.contacts_date span {}
+
+.contacts_price span {
+    display: block;
+    line-height: 28px;
+    font-size: 24px;
+    color: #000000;
+    font-family: Roboto Condensed;
+}
+
+.contacts_price {
+    font-family: Great Vibes;
+    font-size: 96px;
+    color: #E2AB3F;
+    line-height: 100px;
+    font-weight: 300;
+}
+
+.contacts_form {}
+
+.contacts_form-title {}
+
+.contacts_form-name {}
+
+.contacts_form-phone {}
+
+.contacts_form-btn {}
+
+
+.content-left {
+    flex: 0 1 50%;
+}
+
+.contacts_images {
+    flex: 0 1 50%;
+}
+
+.contacts_images img {
+    width: 100%;
+}
